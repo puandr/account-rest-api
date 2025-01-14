@@ -1,0 +1,74 @@
+[
+  {
+    "fromCurrency": "EUR",
+    "toCurrency": "USD",
+    "buyRate": 1.04680,
+    "sellRate": 1.00360
+  },
+  {
+    "fromCurrency": "EUR",
+    "toCurrency": "SEK",
+    "buyRate": 11.72200,
+    "sellRate": 11.25900
+  },
+  {
+    "fromCurrency": "EUR",
+    "toCurrency": "RUB",
+    "buyRate": 95.0,
+    "sellRate": 105.0
+  },
+  {
+    "fromCurrency": "USD",
+    "toCurrency": "EUR",
+    "buyRate": 0.99640,
+    "sellRate": 0.95530
+  },
+  {
+    "fromCurrency": "SEK",
+    "toCurrency": "EUR",
+    "buyRate": 0.08900,
+    "sellRate": 0.08530
+  },
+  {
+    "fromCurrency": "RUB",
+    "toCurrency": "EUR",
+    "buyRate": 0.00952,
+    "sellRate": 0.01053
+  },
+  {
+    "fromCurrency": "USD",
+    "toCurrency": "SEK",
+    "buyRate": 11.21650,
+    "sellRate": 11.29260
+  },
+  {
+    "fromCurrency": "SEK",
+    "toCurrency": "USD",
+    "buyRate": 0.08900,
+    "sellRate": 0.08560
+  },
+  {
+    "fromCurrency": "USD",
+    "toCurrency": "RUB",
+    "buyRate": 99.45720,
+    "sellRate": 105.51540
+  },
+  {
+    "fromCurrency": "RUB",
+    "toCurrency": "USD",
+    "buyRate": 0.00948,
+    "sellRate": 0.00998
+  },
+  {
+    "fromCurrency": "SEK",
+    "toCurrency": "RUB",
+    "buyRate": 1115.59,
+    "sellRate": 1183.79
+  },
+  {
+    "fromCurrency": "RUB",
+    "toCurrency": "SEK",
+    "buyRate": 0.00084,
+    "sellRate": 0.00090
+  }
+]

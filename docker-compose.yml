@@ -1,0 +1,27 @@
+version: '3.9'
+services:
+  currency-exchange-service:
+    build:
+      context: ./currency-exchange-service
+      dockerfile: Dockerfile
+    ports:
+      - "8081:8081"
+    networks:
+      - app-network
+    environment:
+      - JAVA_OPTS=-Dspring.profiles.active=default
+
+  account-service:
+    build:
+      context: ./account-service
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    networks:
+      - app-network
+    environment:
+      - JAVA_OPTS=-Dspring.profiles.active=default
+
+networks:
+  app-network:
+    driver: bridge

@@ -59,19 +59,6 @@ public class GlobalExceptionHandler {
     }
 
     /**
-     * Handles JPA's {@link jakarta.persistence.EntityNotFoundException}.
-     *
-     * Returns a 404 Not Found response with the exception message.
-     *
-     * @param ex the {@link jakarta.persistence.EntityNotFoundException} thrown for JPA entity not found cases.
-     * @return a {@link ResponseEntity} containing the error details.
-     */
-    @ExceptionHandler(jakarta.persistence.EntityNotFoundException.class)
-    public ResponseEntity<Map<String, Object>> handleJpaEntityNotFoundException(jakarta.persistence.EntityNotFoundException ex) {
-        return buildResponse(HttpStatus.NOT_FOUND, ex.getMessage());
-    }
-
-    /**
      * Handles {@link InsufficientFundsException}.
      *
      * Returns a 422 Unprocessable Entity response with the exception message.
